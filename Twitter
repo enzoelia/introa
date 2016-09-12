@@ -1,0 +1,14 @@
+<script>
+
+var Tweet = prompt("Please enter your message.")
+
+if (Tweet.length > 20)
+{
+alert ("Your message is to long!")
+}
+   else
+   {
+       alert("Your message is okay")
+   }
+
+</script>
