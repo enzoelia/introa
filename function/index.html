@@ -1,0 +1,23 @@
+<script>
+//Write a function that reports the percent daily value of sugar in any food given the amount of grams of sugar in that food.  
+//(sugar in the food/recommended daily amount of sugar (38grams for men, 25g for women))*100.  
+      function calculatesugar (sugarinfood, goodammount){            
+            
+            if (goodammount === "Man")
+            {
+                  var result =(sugarinfood/38*100);
+            }
+            else
+            {
+                  var result = (sugarinfood/25*100)
+            }     
+            
+            alert ("The percent daily  value of sugar in your food is:"+ result);
+      }
+      
+      var sugar= prompt("Please write the ammount of sugar in your food.");
+      var gender = prompt("Are you a man or woman?");
+      calculatesugar(sugar,gender);
+      
+      
+</script>
