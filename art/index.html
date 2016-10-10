@@ -1,0 +1,103 @@
+<html>
+<head></head>
+<body>
+<canvas id="myCanvas" width= "1000" height= "1000"></canvas>
+<script>
+      var canvas = document.getElementById("myCanvas");
+      var ctx = canvas.getContext("2d");
+      
+      //backround rect
+      ctx.fillStyle = "#CCCFBA";
+      ctx.fillRect (0,0,730,860);
+      
+      //big line on top
+      ctx.beginPath();
+      ctx.moveTo(730,45);
+      ctx.lineTo(0,115);
+      ctx.lineTo(0,145);
+      ctx.lineTo(730,75);
+      ctx.fillStyle = "#354660"
+      ctx.fill();
+      ctx.closePath();
+      //two main lines
+      ctx.beginPath();
+      ctx.moveTo(300,0);
+      ctx.lineTo(100,700);
+      ctx.lineTo(132,700);
+      ctx.lineTo(332,0);
+      ctx.fillStyle = "#354660";
+      ctx.fill(); 
+      ctx.closePath();
+     
+      ctx.beginPath();
+      ctx.moveTo(640,0);
+      ctx.lineTo(430,700);
+      ctx.lineTo(462,700);
+      ctx.lineTo(672,0);
+      ctx.fillStyle = "#354660";
+      ctx.fill(); 
+      ctx.closePath();
+      //white rect
+      ctx.beginPath();
+      ctx.moveTo(730,190);
+      ctx.lineTo(0,235);
+      ctx.lineTo(0,650);
+      ctx.lineTo(730,630);
+      ctx.fillStyle = "#EAEBE5"
+      ctx.fill();
+      ctx.closePath();
+//big line in the middle
+      ctx.beginPath();
+      ctx.moveTo(730,276);
+      ctx.lineTo(0,450);
+      ctx.lineTo(0,530);
+      ctx.lineTo(730,356);
+      ctx.fillStyle = "#1A4A76";
+      ctx.fill(); 
+      ctx.closePath();
+      //lines crossing the middle
+      ctx.beginPath();
+      ctx.moveTo(170,224.5);
+      ctx.lineTo(43,649);
+      ctx.lineTo(120,647);
+      ctx.lineTo(247,218);
+      ctx.fillStyle = "#1A446C";
+      ctx.fill(); 
+      ctx.closePath();
+      
+      ctx.beginPath();
+      ctx.moveTo(495,204);
+      ctx.lineTo(368,639.5);
+      ctx.lineTo(445,637.5);
+      ctx.lineTo(572,198.5);
+      ctx.fillStyle = "#1A446C";
+      ctx.fill(); 
+      ctx.closePath();
+
+// purple rect      
+      ctx.fillStyle = "#BFBDC2";
+      ctx.fillRect (0,700,730,160);
+            //last two lines
+      ctx.beginPath();
+      ctx.moveTo(100,700);
+      ctx.lineTo(132,700);
+      ctx.lineTo(290,860);
+      ctx.lineTo(248,860);
+      ctx.fillStyle = "#2D506C";
+      ctx.fill(); 
+      ctx.closePath();
+      
+      ctx.beginPath();
+      ctx.moveTo(430,700);
+      ctx.lineTo(462,700);
+      ctx.lineTo(675,860);
+      ctx.lineTo(588,860);
+      ctx.fillStyle = "#2D506C";
+      ctx.fill(); 
+      ctx.closePath();
+      
+            
+</script>
+</body>
+</html>
+
