@@ -1,0 +1,56 @@
+body {
+      padding-top: 50px;
+      padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #35478C;
+}
+
+
+#photoWrapper {
+	width: 50%;
+	margin-left: 25%;
+	border: 10px solid #ADD5F7;
+
+}
+#thePhoto {
+	width: 100%;
+}
+
+.centerMe {
+	text-align: center;
+	color: #ADD5F7;
+      font-family: "Roboto", Arial, Serif;
+      font-size: 18;
+}
+.bigWrapper {
+	background-color: #16193B;
+      padding-left: 20px;
+            padding-right: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+}
+
+h1.centerMe{ 
+    font-family: 'Russo One', sans-serif !important;
+      font-size: 26;
+
+      
+      }
+
+#piechart{
+      margin-left: 25%;
+      width 50%;
+}
+
+
+audio { 
+   display:none;
+}
+      
+      
+      
+      
+      
+      
+}
